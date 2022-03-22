@@ -20,7 +20,7 @@
 
 ## :chart_with_upwards_trend: Process
 
-geinteresseerd in mijn proces tijdens het maken van dit project? klik [hier](https://github.com/samclarkb/Fireworks-show/wiki/Proces)!
+geinteresseerd in mijn proces tijdens het maken van dit project? klik [hier](https://github.com/samclarkb/Barcode-app-PWA/wiki/Proces)!
 
 ## :memo: Wishlist
 Er zijn een paar dingen waar ik niet aan toe ben gekomen, maar graag had willen doen:
