@@ -10,18 +10,12 @@
 * [License](https://github.com/samclarkb/Fireworks-show#bookmark-license)
 
 ## :books: Assesment 
-De opdracht vannuit de HVA luidt als volgt: "Anyone who has ever held their camera up to the blazing sky knows that a brilliant firework show can rarely be captured to any satisfying degree." Aan jou de vraag om een onvergetelijke magische dynamische CSS vuurwerkshow te creëren."
 
 **Rubric:** 
 
-<img src="https://github.com/samclarkb/Fireworks-show/blob/main/images/rubricCSS.png" width="500">
+<img src="https://github.com/samclarkb/progressive-web-apps-2122/blob/main/public/images/rubric.png" width="500">
 
 ## :bulb: Concept
-Dit project staat volledig in het teken van CSS. Mij is de opdracht gegeven om een vuurwerkshow te maken met alleen CSS. Omdat het mij ook tof leek om een bijpassende achtergrond te maken met CSS, heb ik de focus verdeeld over een vuurwerk animatie en een bijpassende achtergrond. Op deze manier leer ik, voor mijn gevoel, meer over CSS in het algemeen.
-
-Dit is het eindresultaat geworden:
-
-<img src="https://github.com/samclarkb/Fireworks-show/blob/main/images/gifVuurwerk.gif" width="800">
 
 
 ## :chart_with_upwards_trend: Process
