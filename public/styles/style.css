@@ -1,0 +1,269 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+/* landing pagina */
+header {
+	background: linear-gradient(0deg, rgba(255, 195, 160, 1) 0%, rgba(255, 175, 189, 1) 100%);
+	margin: 0 0 5vw;
+	display: flex;
+	justify-content: center;
+	border-radius: 0 0 7.5vw 7.5vw;
+	align-items: center;
+}
+
+/*  header  */
+header {
+	display: block;
+	color: white;
+	align-items: center;
+	text-align: center;
+}
+
+header h1,
+main > section:nth-of-type(1) h1 {
+	font-size: 11vw;
+	color: white;
+	padding-top: 2vw;
+	font-weight: 300;
+}
+
+main > section:nth-of-type(1) {
+	height: fit-content;
+}
+
+#results {
+	height: 100vh;
+}
+
+header > div:nth-of-type(2),
+header > div:nth-of-type(1) {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	font-size: 15vw;
+}
+
+header > div:nth-of-type(1) {
+	transform: translateY(-175%);
+	font-weight: 100;
+	font-size: 5vw;
+}
+header > div:nth-of-type(2) {
+	/* transform: rotate(180deg); */
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* QR code scanner */
+
+main > section:nth-of-type(1) > div:nth-of-type(1) {
+	display: flex;
+	justify-content: center;
+	height: 40vh;
+	position: relative;
+}
+
+video {
+	width: 85vw;
+	height: 31.5vh;
+	object-fit: cover;
+	margin-top: 7.5vw;
+}
+
+button > img {
+	width: 12vw;
+	padding-right: 2.5vw;
+}
+
+/* camera kader */
+main > section:nth-of-type(1) > div:nth-of-type(1) div {
+	width: 7vw;
+	height: 7vw;
+	margin: 4vw;
+	border: solid 1vw rgba(255, 195, 160, 1);
+}
+
+main > section:nth-of-type(1) > div:nth-of-type(1) div:nth-of-type(1) {
+	border-bottom: none;
+	border-right: none;
+	position: absolute;
+	left: 0;
+}
+
+main > section:nth-of-type(1) > div:nth-of-type(1) div:nth-of-type(2) {
+	border-bottom: none;
+	border-left: none;
+	position: absolute;
+	right: 0;
+}
+
+main > section:nth-of-type(1) > div:nth-of-type(1) div:nth-of-type(3) {
+	border-top: none;
+	border-right: none;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+main > section:nth-of-type(1) > div:nth-of-type(1) div:nth-of-type(4) {
+	border-top: none;
+	border-left: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+main > section:nth-of-type(1) > div:nth-of-type(3) button {
+	background: linear-gradient(0deg, rgba(255, 195, 160, 1) 0%, rgba(255, 175, 189, 1) 100%);
+	box-shadow: 1.75vw 2vw rgba(0, 0, 0, 0.1);
+	color: white;
+	border-style: none;
+	padding: 5vw 10vw;
+	width: 60vw;
+	font-size: 10vw;
+	border-radius: 10vw;
+	display: flex;
+	margin-top: 7.5vw;
+}
+
+main > section:nth-of-type(1) > div:nth-of-type(3) {
+	display: flex;
+	justify-content: center;
+}
+
+main > section:nth-of-type(1) > div:nth-of-type(4) {
+	margin-top: 12vw;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+main > section:nth-of-type(1) > div:last-of-type {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main > section:nth-of-type(1) > div:nth-of-type(4) h2 {
+	font-weight: 300;
+	/* padding: 2vw 0; */
+}
+
+button:disabled {
+	opacity: 50%;
+}
+
+main > article > div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	color: black;
+	margin: 0 2vw;
+}
+
+main > article > div > div:last-of-type {
+	margin: 5vw 0;
+	display: flex;
+	justify-content: center;
+}
+
+main > article > div a {
+	background: linear-gradient(0deg, rgba(255, 195, 160, 1) 0%, rgba(255, 175, 189, 1) 100%);
+	box-shadow: 1.75vw 2vw rgba(0, 0, 0, 0.1);
+	color: white;
+	border-style: none;
+	padding: 5vw 10vw;
+	font-size: 10vw;
+	border-radius: 10vw;
+	font-weight: 300;
+	font-size: 6vw;
+	margin: 5vw;
+}
+
+main > article > div h2 {
+	font-weight: 600;
+}
+
+main > article > h3 {
+	font-weight: 400;
+	margin: 2vw;
+}
+
+main > article div img {
+	width: 90vw;
+	height: 40vh;
+	padding: 5vw 0;
+	border-radius: none;
+}
+
+header h3 {
+	font-weight: 200;
+	padding: 3vw;
+}
+
+ul {
+	list-style: none;
+	text-align: left;
+	font-weight: 100;
+	margin: 0 5vw;
+}
+
+main > article {
+	display: none;
+	margin-top: 10vw;
+}
+
+main > article.show {
+	display: block;
+}
+
+.marginH2 {
+	margin: 20vw 0;
+}
+/* Loader */
+/* source: W3schools. (2022). How TO - CSS Loader. How TO - CSS Loader. https://www.w3schools.com/howto/howto_css_loader.asp */
+main > section:nth-of-type(1) > div:nth-of-type(2) {
+	position: absolute;
+	margin: auto;
+	display: none;
+	border: 2.5vw solid #eaf0f6;
+	border-radius: 50%;
+	border-top: 2.5vw solid rgba(255, 195, 160, 1);
+	width: 25vw;
+	height: 25vw;
+	top: 35%;
+	left: 35%;
+	animation: spinner 0.5s linear infinite;
+	transform: translateY(100vw);
+}
+
+main > section:nth-of-type(1) > div.loading-true {
+	display: block;
+	transform: translateY(100vw);
+}
+
+@keyframes spinner {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+input {
+	padding: 1vw;
+}
+
+input:nth-of-type(2) {
+	/* background: url('./images/searchIcon.png') no-repeat left; */
+	/* border: none; */
+}
