@@ -12,15 +12,13 @@
 			</header>
 			<section>
 				<div>
-              
                         <article >
                           <!-- <p>Try searching again by typing in the barcode</p> -->
-                          <form action="#">
-                            <input type="text" id="searchField" placeholder="" />
-                            <input type="button" value="Search" />
+                          <form action="/results" method='GET'>
+                            <input type="text" id="searchField" name='query' placeholder="" />
+                            <input type="submit" value="Search" />
                           </form>
                         </article>
-                   
 				</div>
 				<div id="loading"></div>
 				<div>
