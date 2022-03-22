@@ -6,18 +6,18 @@ const port = 3000
 app.use(express.static('public'))
 app.set('view engine', 'ejs')
 
-app.get(`/`, (req, res) => {
+app.get('/', (req, res) => {
 	res.render('home')
 })
 
-app.get(`/results`, async (req, res) => {
+app.get('/results', async (req, res) => {
 	await fetch(`https://world.openfoodfacts.org/api/v0/product/${req.query.query}.json`)
 		.then(res => res.json())
 		.then(data => {
-			if (data == 1) {
-				res.render('/results', { product: data.product })
+			if (data.status == 1) {
+				res.render('results', { product: data.product })
 			} else {
-				res.redirect('/home')
+				res.redirect('/')
 			}
 		})
 })
