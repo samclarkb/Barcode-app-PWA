@@ -38,6 +38,7 @@ Mocht je er zelf wat aan toe willen voegen, neem vooral je tijd!
 
 
 ## :mag_right: Recources 
+- https://www.youtube.com/playlist?list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7
 - 
 
 ## :bookmark: License 
