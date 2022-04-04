@@ -3,8 +3,7 @@
 	"short_name": "Barcode scanner",
 	"background_color": "#FFFFFF",
 	"display": "standalone",
-	"theme_color": "blue",
-	"Scope": "/",
+	"orientation": "portrait",
 	"start_url": "/",
 	"icons": [
 		{
