@@ -20,11 +20,10 @@ self.addEventListener('activate', evt => {
 
 // Every time a fetch occur, this function will run
 self.addEventListener('fetch', evt => {
-	console.log('fetch', evt)
-
+	// if the cache contains something with evt.request than return it from the cache instead of the server.
 	evt.respondWith(
 		caches.match(evt.request).then(cacheRes => {
-			return cacheRes || fetch(evt.request)
+			return cacheRes || fetch(evt.request) // If the cache is empty, than run the original fetch from the server.
 		})
 	)
 })
