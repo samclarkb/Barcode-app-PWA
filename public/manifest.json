@@ -1,9 +1,9 @@
 {
 	"name": "Barcode scanner app",
 	"short_name": "Barcode scanner",
-	"theme_color": "#FFFFFF",
 	"background_color": "#FFFFFF",
 	"display": "standalone",
+	"theme_color": "blue",
 	"Scope": "/",
 	"start_url": "/",
 	"icons": [
