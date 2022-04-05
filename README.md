@@ -26,7 +26,8 @@ geinteresseerd in mijn proces tijdens het maken van dit project? klik [hier](htt
 
 ## :memo: Wishlist
 Er zijn een paar dingen waar ik niet aan toe ben gekomen, maar graag had willen doen:
-* E
+* De resultaten opslaan in de cache 
+* Kijken naar/expirimenteren met cache headers
 * 
  
  
@@ -39,7 +40,7 @@ Mocht je er zelf wat aan toe willen voegen, neem vooral je tijd!
 
 ## :mag_right: Recources 
 - https://www.youtube.com/playlist?list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7
-- 
+- https://web.dev/
 
 ## :bookmark: License 
 Copyright (c) 2021 Sam Clark Boot, [MIT](https://github.com/samclarkb/Barcode-app-PWA/blob/main/LICENSE)
