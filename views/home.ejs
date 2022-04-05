@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 	<head>
 		<%- include('layout/head'); %>
 	</head>
@@ -12,17 +12,16 @@
 			</header>
 			<section>
 				<div>
-                        <article >
-                          <!-- <p>Try searching again by typing in the barcode</p> -->
-                          <form action="/results" method='GET'>
-                            <input type="text" id="searchField" name='query' placeholder="" />
-                            <input type="submit" value="Search" />
-                          </form>
-                        </article>
+					<article>
+						<!-- <p>Try searching again by typing in the barcode</p> -->
+						<form action="/results" method="GET">
+							<input type="text" id="searchField" name="query" placeholder="" />
+							<input type="submit" value="Search" />
+						</form>
+					</article>
 				</div>
 				<div id="loading"></div>
-				<div>
-				</div>
+				<div></div>
 				<div>
 					<!-- <img src="https://img.icons8.com/ios/48/000000/empty-set.png" width="40vw" />
 					<h2>Je hebt nog geen barcode gescant.</h2> -->
