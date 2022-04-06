@@ -29,7 +29,7 @@ Visual representation:
 
 ## :chart_with_upwards_trend: Process
 
-geinteresseerd in mijn proces tijdens het maken van dit project? klik [hier](https://github.com/samclarkb/Barcode-app-PWA/wiki/Proces)!
+Interested in my process of making the application? Click [here](https://github.com/samclarkb/Barcode-app-PWA/wiki/Proces)!
 
 ## :memo: Wishlist
 There are a few things I haven't done due lack of time:
