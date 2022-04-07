@@ -1,3 +1,5 @@
+import { detect } from './modules/barcode.js'
+
 if ('serviceWorker' in navigator) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker
@@ -7,4 +9,8 @@ if ('serviceWorker' in navigator) {
 				return registration.update()
 			})
 	})
+}
+
+if (window.location.pathname === '/scan') {
+	detect()
 }

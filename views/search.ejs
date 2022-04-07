@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include('layout/head'); %>
+	</head>
+
+	<body>
+		<main id="search">
+			<h1>Search for a product</h1>
+
+			<form action="/results">
+				<label for="searchField"></label>
+				<input type="text" id="searchField" name="query" />
+				<input type="submit" value="Search" />
+			</form>
+		</main>
+	</body>
+</html>

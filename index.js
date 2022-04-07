@@ -12,6 +12,14 @@ app.get('/', (req, res) => {
 	res.render('home')
 })
 
+app.get('/search', (req, res) => {
+	res.render('search')
+})
+
+app.get('/scan', (req, res) => {
+	res.render('scan')
+})
+
 app.get('/results', async (req, res) => {
 	await fetch(`https://world.openfoodfacts.org/api/v0/product/${req.query.query}.json`)
 		.then(res => res.json())
@@ -24,8 +32,25 @@ app.get('/results', async (req, res) => {
 		})
 })
 
+app.get('/results/:barcode', async (req, res) => {
+	const barcode = req.params.barcode
+	await fetch(`https://world.openfoodfacts.org/api/v0/product/${barcode}.json`)
+		.then(res => res.json())
+		.then(data => {
+			if (data.status == 1) {
+				res.render('results', { product: data.product })
+			} else {
+				res.redirect('/')
+			}
+		})
+})
+
+app.get('/offline', (req, res) => {
+	res.render('offline')
+})
+
 app.use((req, res) => {
-	res.status(404).send(':(')
+	res.status(404).send('404 :(')
 })
 
 app.listen(port, () => {

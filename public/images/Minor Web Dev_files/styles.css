@@ -1,0 +1,270 @@
+main {
+	max-width: 30em;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #5f4b8bff;
+	color: white;
+}
+
+form {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+
+form > {
+	margin: 10vw;
+}
+
+input:focus {
+	border-bottom: solid 0.15em #5f4b8bff;
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+fieldset {
+	border: solid 0vw;
+	background-color: rgba(250, 250, 250, 0.4);
+	border-radius: 1vw;
+	color: black;
+	padding: 2em;
+}
+
+fieldset legend {
+	transform: translate(-0.1em, 2em);
+	font-weight: 600;
+	margin-bottom: 0.5em;
+}
+
+@supports (display: flex) {
+	form > fieldset {
+		display: flex;
+		flex-direction: column;
+	}
+	form > fieldset input,
+	form > fieldset textarea {
+		margin-bottom: 1vw;
+	}
+	br {
+		display: none;
+	}
+}
+
+form > fieldset > label:nth-of-type(1) {
+	margin-top: 1em;
+}
+
+form fieldset section:last-of-type {
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	margin-top: 2em;
+}
+
+form fieldset section a {
+	width: 6.5em;
+	background-color: #5f4b8bff;
+	color: white;
+	padding: 1em 0;
+	border-radius: 0.5em;
+	box-shadow: 0.3em 0.3em 0.25em rgba(0, 0, 0, 0.5);
+	transition: all 0.2s ease;
+	text-decoration: none;
+}
+
+form > fieldset button[type='submit'] {
+	width: 7.5em;
+	cursor: pointer;
+	background-color: #5f4b8bff;
+	color: white;
+	border: none;
+	padding: 0.5em 0;
+	border-radius: 0.5em;
+	box-shadow: 0.3em 0.3em 0.25em rgba(0, 0, 0, 0.5);
+	transition: all 0.2s ease;
+}
+
+form > fieldset button[type='submit']:hover,
+form fieldset section a:hover,
+input[type='radio'] + label:hover,
+.redirect:hover {
+	transform: translateY(-0.15em);
+}
+
+form fieldset div {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	margin: 1em 0;
+	width: 20em;
+}
+
+form fieldset div input[type='text'],
+form fieldset div input[type='number'] {
+	width: 100%;
+	height: 100%;
+	padding-top: 0.25em;
+	background: transparent;
+	border: none;
+	outline: none;
+	transform: translateY(1em);
+}
+
+form fieldset div label {
+	position: absolute;
+	bottom: 0em;
+	left: 0em;
+	width: 100%;
+	height: 100%;
+	border-bottom: solid 0.1em rgba(250, 250, 250, 0.4);
+}
+
+form fieldset div label::after {
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 100%;
+	bottom: -1.5px;
+	left: 0em;
+	border-bottom: solid 0.1em #5f4b8bff;
+	transition: all 0.3s ease;
+}
+
+form fieldset div label::before {
+	content: '\2713';
+	color: green;
+	display: none;
+	transform: translate(18em, 1em);
+}
+
+form fieldset label::before {
+	content: '\2713';
+	color: green;
+	display: none;
+	transform: translate(18em, 0em);
+	position: absolute;
+}
+
+form fieldset div span {
+	position: absolute;
+	bottom: 0.25em;
+	transition: all 0.3s ease;
+}
+
+form fieldset div input[type='text']:focus + label span,
+form fieldset div input[type='number']:focus + label span,
+form fieldset div input[type='text']:valid + label span,
+form fieldset div input[type='number']:valid + label span {
+	transform: translateY(-1em);
+	opacity: 0.75;
+	font-weight: 400;
+}
+
+form fieldset div input[type='text']:focus + label::after,
+form fieldset div input[type='number']:focus + label::after,
+form fieldset div input[type='text']:valid + label::after,
+form fieldset div input[type='number']:valid + label::after {
+	transform: translateX(0%);
+	width: 100%;
+	/* display: block; */
+}
+
+form fieldset div input[type='text']:valid + label::before,
+form fieldset div input[type='number']:valid + label::before,
+form fieldset input[type='date']:valid + label::before {
+	display: flex;
+}
+
+form fieldset section:nth-of-type(1) {
+	margin-top: 0.75em;
+}
+
+form fieldset section {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+form fieldset textarea {
+	background-color: rgba(250, 250, 250, 0.4);
+	border: solid 0.15em rgba(250, 250, 250, 0.4);
+	border-radius: 0.2em;
+}
+
+form fieldset textarea::placeholder {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+form fieldset input[type='radio'] {
+	background-color: teal;
+	display: none;
+}
+
+input[type='radio'] + label:hover {
+	background-color: rgba(250, 250, 250, 0.65);
+}
+
+input[type='radio'] + label {
+	background-color: rgba(250, 250, 250, 0.4);
+	color: white;
+	padding: 0.4em 1em;
+	margin: 0.5em;
+	border-radius: 0.2em;
+	box-shadow: 0.2em 0.2em 0.25em rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+
+input[type='radio']:checked + label {
+	text-decoration: underline;
+	background-color: #5f4b8bff;
+}
+
+#period {
+	margin-bottom: 0.8em;
+	transform: translateY(-5.75em);
+}
+
+input[type='date'] {
+	transform: translateY(3.5em);
+}
+
+input[type='date']:nth-of-type(2) {
+	margin-bottom: 2.5em;
+}
+
+input[type='date']:focus {
+	border: solid 0.25em #5f4b8bff;
+}
+
+p > span {
+	color: green;
+	font-size: 5em;
+}
+
+article > p:nth-of-type(2) {
+	transform: translateY(-1em);
+}
+
+.redirect {
+	background-color: rgba(250, 250, 250, 0.75);
+	text-decoration: none;
+	padding: 0.8em 0.5em;
+	border-radius: 0.2em;
+	box-shadow: 0.3em 0.3em 0.25em rgba(0, 0, 0, 0.5);
+	margin: 0.5em;
+	width: 15em;
+}
+
+.redirect:hover {
+	background-color: white;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}

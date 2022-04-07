@@ -5,39 +5,18 @@
 	</head>
 
 	<body>
-		<main>
+		<main id="home">
 			<header>
 				<h1>Weet wat je eet app</h1>
-				<h3>Scan de barcode op het etiket om er achter te komen wat er in je eten zit.</h3>
+				<h2>
+					Scan of zoek een barcode van het product waar je meer te weten over wilt komen.
+				</h2>
 			</header>
 			<section>
-				<div>
-					<article>
-						<!-- <p>Try searching again by typing in the barcode</p> -->
-						<form action="/results" method="GET">
-							<input type="text" id="searchField" name="query" placeholder="" />
-							<input type="submit" value="Search" />
-						</form>
-					</article>
-				</div>
-				<div id="loading"></div>
-				<div></div>
-				<div>
-					<!-- <img src="https://img.icons8.com/ios/48/000000/empty-set.png" width="40vw" />
-					<h2>Je hebt nog geen barcode gescant.</h2> -->
-				</div>
+				<a href="/scan">Scan a barcode</a>
+				<a href="/search">Seach for a barcode</a>
 			</section>
-			<article id="results">
-				<div>
-					<img />
-					<h2></h2>
-				</div>
-				<h3>Alergenen:</h3>
-				<ul></ul>
-				<h3>Ingredienten:</h3>
-				<ul></ul>
-				<div><a href="#">Ander product scannen</a></div>
-			</article>
+			<div id="loading"></div>
 		</main>
 	</body>
 </html>

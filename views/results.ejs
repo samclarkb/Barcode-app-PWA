@@ -5,8 +5,15 @@
 	</head>
 
 	<body>
-		<main>
-			<img src="<%=product.image_url %>" alt="Product image" />
+		<main id="results">
+			<img
+				src="<%=product.image_url %>"
+				srcset="
+            <%= product.image_url %> 800w, 
+            <%= product.image_small_url %> 400w, 
+            <%= product.image_thumb_url %> 200w"
+				alt="Product image"
+			/>
 			<h1><%= product.product_name %>, <%= product.quantity %></h1>
 			<p></p>
 
@@ -30,7 +37,7 @@
 			</section>
 			<% } %>
 
-			<a href="/" id="scan-button"> <img src="images/backButton.png" alt="" /> </a>
+			<a href="/" id="scan-button"> terug </a>
 		</main>
 	</body>
 </html>
