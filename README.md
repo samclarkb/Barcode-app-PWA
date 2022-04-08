@@ -41,7 +41,7 @@ There are a few things I haven't done due lack of time:
  
 ## :wrench: Installation
 
-Clone this repository with the following command:! 
+Clone this repository with the following command: 
 
 ``` git clone https://github.com/samclarkb/Barcode-app-PWA.git ```
 
