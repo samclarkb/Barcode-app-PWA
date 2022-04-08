@@ -24,6 +24,8 @@ For the first time I implented a manifest.json file and a service worker. The se
 
 Visual representation:
 
+<img src="https://github.com/samclarkb/Barcode-app-PWA/blob/main/public/images/appFilm.gif" width="300">
+
 ## :bar_chart: Activity diagram
 
 
