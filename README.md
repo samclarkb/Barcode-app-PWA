@@ -27,7 +27,7 @@ Visual representation:
 <img src="https://github.com/samclarkb/Barcode-app-PWA/blob/main/public/images/appFilm.gif" width="300">
 
 ## :bar_chart: Activity diagram
-
+<img src="https://github.com/samclarkb/Barcode-app-PWA/blob/main/public/images/activityDiagram.png" width="1000">
 
 ## :chart_with_upwards_trend: Process
 
@@ -49,6 +49,7 @@ Clone this repository with the following command:!
 ## :mag_right: Recources 
 - The Net Ninja. (2019, 3 juni). PWA tutorial for beginners [Video]. YouTube. https://www.youtube.com/playlist?list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7
 - web.dev. (z.d.). Let’s build the future of the web, together. Geraadpleegd op 8 april 2022, van https://web.dev/
+- Google Chrome Developers. (2020, 10 oktober). Reduce image size: use srcset to automatically choose the right image [Video]. YouTube. https://www.youtube.com/watch?v=SyVKRnusyqM
 
 ## :bookmark: License 
 Copyright (c) 2021 Sam Clark Boot, [MIT](https://github.com/samclarkb/Barcode-app-PWA/blob/main/LICENSE)
