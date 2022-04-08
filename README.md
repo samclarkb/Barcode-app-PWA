@@ -5,6 +5,7 @@
 * [Concept](https://github.com/samclarkb/Barcode-app-PWA#bulb-concept)
 * [Activity diagram](https://github.com/samclarkb/Barcode-app-PWA#chart_with_upwards_trend-Activity_diagram)
 * [Process](https://github.com/samclarkb/Barcode-app-PWA#chart_with_upwards_trend-process)
+* [optimization](https://github.com/samclarkb/Barcode-app-PWA#paperclip_optimisation)
 * [Wishlist](https://github.com/samclarkb/Barcode-app-PWA#memo-wishlist)
 * [Installation](https://github.com/samclarkb/Barcode-app-PWA#wrench-installation)
 * [Recources](https://github.com/samclarkb/Barcode-app-PWA#mag_right-recources)
@@ -33,10 +34,21 @@ Visual representation:
 
 Interested in my process of making the application? Click [here](https://github.com/samclarkb/Barcode-app-PWA/wiki/Proces)!
 
+## 📎 Optimization
+
+There are a vew things that I've implemented to improve the performance of the application:
+- Srcset
+- minify
+- compression
+- cache header
+
+Got to [process](https://github.com/samclarkb/Barcode-app-PWA/wiki/Proces) for a description about how I've implemented optimization.
+
 ## :memo: Wishlist
 There are a few things I haven't done due lack of time:
-* putting the results in the cache 
-* Working with cache headers
+* Getting a broader understanding of cache headers
+* Implemented more optimization methods
+* Getting a score of 100 (Lighthouse) on the results page
  
  
 ## :wrench: Installation
