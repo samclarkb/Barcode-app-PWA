@@ -1,12 +1,17 @@
 {
 	"dependencies": {
 		"compression": "^1.7.4",
+		"dotenv": "^16.0.0",
 		"ejs": "^3.1.6",
 		"express": "^4.17.3",
+		"minify": "^8.0.4",
 		"node-fetch": "2.0",
 		"nodemon": "^2.0.15"
 	},
 	"scripts": {
-		"start": "nodemon index.js"
+		"start": "nodemon index.js",
+		"minify-barcode-js": "minify ./public/scripts/modules/barcode.js > ./public/scripts/modules/barcode.min.js",
+		"minify-ui-js": "minify ./public/scripts/modules/ui.js > ./public/scripts/modules/ui.min.js",
+		"minify-css": "minify ./public/styles/style.css > ./public/styles/style.min.css"
 	}
 }

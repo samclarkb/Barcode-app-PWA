@@ -1,4 +1,4 @@
-import { detect } from './modules/barcode.js'
+import { detect } from './modules/barcode.min.js'
 
 if ('serviceWorker' in navigator) {
 	window.addEventListener('load', function () {

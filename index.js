@@ -1,8 +1,14 @@
 const express = require('express')
 const fetch = require('node-fetch')
 const app = express()
-const port = 3000
+const env = require('dotenv')
+const port = process.env.PORT || 3000
 const compression = require('compression')
+
+app.use(/.*-[0-9a-f]{10}\..*/, (req, res, next) => {
+	res.setHeader('Cache-Control', 'max-age=365000000, immutable')
+	next()
+})
 
 app.use(express.static('public'))
 app.set('view engine', 'ejs')

@@ -1,4 +1,4 @@
-import { loadingState, removeLoadingState } from './ui.js'
+import { loadingState, removeLoadingState } from './ui.min.js'
 
 export async function detect() {
 	loadingState()
