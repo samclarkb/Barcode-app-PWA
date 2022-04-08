@@ -47,8 +47,8 @@ Clone this repository with the following command:!
 
 
 ## :mag_right: Recources 
-- https://www.youtube.com/playlist?list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7
-- https://web.dev/
+- The Net Ninja. (2019, 3 juni). PWA tutorial for beginners [Video]. YouTube. https://www.youtube.com/playlist?list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7
+- web.dev. (z.d.). Let’s build the future of the web, together. Geraadpleegd op 8 april 2022, van https://web.dev/
 
 ## :bookmark: License 
 Copyright (c) 2021 Sam Clark Boot, [MIT](https://github.com/samclarkb/Barcode-app-PWA/blob/main/LICENSE)
